@@ -1,0 +1,26 @@
+name: studentmate_bd
+description: "StudentMate BD - Notes/Study Material Sharing App for Bangladeshi Students"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.24.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  image_picker: ^1.0.4
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
